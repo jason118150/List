@@ -1,0 +1,33 @@
+.list_wrapper{
+  font-family: "IBM Plex Mono", Futura, sans-serif;
+}
+.list_title{
+    width: 100%;
+    height: 80px;
+    font-size: 50px;
+    padding-left: 10%;
+    padding-top: 15px;
+}
+.list_form{
+    width: 80%;
+    padding-left: 10%;
+    height: 600px;
+}
+.list_footer{
+    font-size: 25px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    justify-content: flex-end;
+    color: #C0C0C0;
+    background-color: (0, 0, 0);
+}
+.list_footer span{
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
